@@ -1,0 +1,9 @@
+.container{
+	width: 32%;
+	background-color: rgb(0,100,195);
+	padding: 20px;
+	font-size: 15px;
+}
+.box{
+	background-color: rgb(0,100,195);
+}

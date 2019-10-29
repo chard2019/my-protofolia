@@ -1,0 +1,50 @@
+body{
+	font-family: century gothic;
+}
+
+
+.theme_a{
+	background-color: #0099ff;
+}
+.theme_b{
+	/*background-color: #ff8000;*/
+}
+.white_links a, .white_text{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.white_links a:hover{background: lightblue;}
+.p_left{
+	padding-left: 65px;
+}
+.h_height{
+	height: 157px;
+
+}
+.x_padding{
+	padding: 12px;
+}
+.big_font{
+	font-size: 50px;
+}
+.big_link{
+font-size: 20px;
+}
+h2{
+	margin-top: 15px;font-weight: bold;
+}
+.p_left p{
+	margin-top: 15px;
+	font-size: 25px;
+	text-transform: uppercase;;
+	font-weight: bold;
+
+}

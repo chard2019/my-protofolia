@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classes and Flow</title>
+
+	<style>
+		body{
+			background-color: orange;
+			font-family: segoe UI;
+			font-weight: bold;
+			font-size: 13px;
+		}
+
+		.main_item{ /*These are three main boxes */
+			background-color: white;
+			margin-top: 5px;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		#our_body{
+			min-height: 400px;
+			background-color: transparent;
+			
+			padding: 0px;
+
+		}
+		.flt{
+			float: left;
+			background-color: white;
+			color: #000000;	
+			padding: 10px;
+			/*margin: 10px;*/
+			min-height: 300px;
+
+		}
+		#inbox_write{
+			width: 10%;
+		}
+		#extend_width{
+			width: 85%;
+			margin-left: 10px;
+			float: right;
+
+
+		}
+		.email_list{
+			width: 100%;
+			border-collapse: collapse;
+			border: 1px solid #000000;
+		}
+
+
+		.email_list tr td{
+			border-bottom: 1px solid green;
+			padding: 4px;
+		}
+
+
+		.from_td,  .date_td{
+			width: 170px;
+		}
+		thead{
+			background-color: #a27600;
+			color: #ffffff;
+		}
+		#merged_td{
+			text-align: center;;
+		}
+
+
+		/*Make a border radius*/
+		.main_item, .flt{
+			border-radius: 6px;
+		}
+		thead td, .email_list{
+			border-top-radius: 10px;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+
+
+	<div class="main_item">		<h1>Classes and Flows</h1>	</div>
+
+
+
+	<div class="main_item" id="our_body">	
+
+		<div class="flt" id="inbox_write">
+				Inbox  <br/>
+				Write a new email 
+		</div>
+
+		<div class="flt" id="extend_width">
+
+
+
+			
+			<table  class="email_list">
+			
+				<thead >
+					<tr>
+						<td class="from_td">S/NO</td>          <td>NAMES</td>         <td class="date_td">TELEPHONE</td>    <td>DATE</td>
+					</tr>
+				</thead>
+
+
+				<tr>
+					<td class="from_td">Peter</td>          <td>New Job</td>         <td class="date_td">17th- July- 2019 </td>
+				</tr>
+				<tr>
+					<td class="from_td">Paul</td>          <td>Best moments</td>         <td class="date_td">17th- July- 2019 </td>
+				</tr>
+				<tr>
+					<td class="from_td">Eric</td>          <td>Good news</td>         <td class="date_td">17th- July- 2019 </td>
+				</tr>
+
+
+				<tr>
+					<td class="from_td"  id="merged_td"     colspan="3">  Earlier this week   </td>
+				</tr>
+
+
+				<tr>
+					<td class="from_td">Sam</td>   <td>Please help</td>         <td class="date_td">25th- June- 2019 </td>
+				</tr>
+				<tr>
+					<td class="from_td">Jacky</td>   <td>Miss you</td>         <td class="date_td">24th- June- 2019 </td>
+				</tr>
+				<tr>
+					<td class="from_td">Mum</td>   <td>Read this</td>         <td class="date_td">23rd- June- 2019 </td>
+				</tr>
+
+				</table>
+
+		</div>
+
+	</div>
+
+
+
+
+	<div class="main_item">		Footer	</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background-color: #fff;
+	color: #000;
+}
+.skin{
+	background-color: rgb(0,100,200);
+	color: #fff;
+	min-height: 180px;
+}
+.header{
+
+}
+.bordered{
+	border: 1px solid white;
+}
+.bordered_black{
+	border: 1px solid black;
+}
+.web_title{
+	font-size: 55px;
+}
+.smaller_title{
+	font-size: 30px;
+}
+.small_font{
+	font-size: 14px;
+}
+.menu1{
+	padding-top: 30px;
+}
+.medium_font{
+	font-size: 20px;
+}
+.slide_picture{
+	background-image: url('../images/columbia_img.PNG');
+	height: 500px;
+	background-repeat: no-repeat;;
+
+}
+.label{
+	position: absolute;
+	bottom: 0px;
+	background-color: rgb(0,100,200);
+	color: #fff;
+	padding: 8px;
+	width: 100%;
+	left: 0px;
+}
+.banner_row{
+	height: 180px;
+}
+.bners{
+	background-repeat: no-repeat;
+}
+
+.pic_bner1{
+	background-image: url('../images/bner1.PNG');
+	
+}
+.pic_bner2{
+	background-image: url('../images/bner2.PNG');
+}
+.pic_bner3{
+	background-image: url('../images/bner3.PNG');
+}
+.pic_bner4{
+	background-image: url('../images/bner4.PNG');
+}
+.pic_bner5{
+	background-image: url('../images/bner5.PNG');
+
+}
+.pic_bner6{
+	background-image: url('../images/bner6.PNG');
+
+}
+.top_space{
+	margin-top: 80px;
+}
+.bottom_space{
+	margin-bottom: 60px;
+}

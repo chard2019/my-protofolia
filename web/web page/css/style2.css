@@ -1,0 +1,106 @@
+.image1{
+	background-color: blue;
+
+}
+
+.image2{
+	background-color: red;
+
+}
+
+.image3{
+
+	background-color: green;
+}
+
+.image4{
+
+	background-color: orange;
+}
+.image5{
+
+	background-color: cyan;
+}
+
+.row{
+
+	height: 150px;
+}
+
+
+
+
+
+
+.span12{
+	background-color:cyan;
+	border: 1px solid black;
+}
+
+.span3{
+	background-color: lightblue;
+	border: 1px solid black;
+}
+.span4{
+	background-color: lightgreen;
+	border: 1px solid black;
+}
+.span8{
+	background-color: #ffccff;
+	border: 1px solid black;
+}
+.span6{
+	background-color: #800080;
+	border: 1px solid black;
+}
+.span1{
+	background-color: #ffaa00;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+#basic{
+	background-color: #a3a3c2;
+	border: 6px solid lightblue;
+
+}
+#default{
+	background-color: #ffffff;
+	border: 6px solid gray;
+}
+
+#primary{
+	background-color: blue;
+	color: white;
+	border-radius: 6px;
+}
+#success{
+	background-color: green;
+	color: white;
+	border-radius: 6px solid green;
+}
+#Info{
+	background-color: #4dd2ff;
+	color: white;
+}
+#warning{
+	background-color:  #ffd633;
+	color: white;
+}
+#danger{
+	background-color: red;
+	color: white;
+}
+#link:hover{
+	background-color: cyan;
+	color: black;
+
+}
+
+#footer{
+
+	background-color: rgb(#001a00);
+	color: ffffff;
+}
+

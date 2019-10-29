@@ -1,0 +1,234 @@
+body{
+	background-color: #blues;
+	color: #000;
+}
+#header{
+	background-color: white;
+	border: 4px solid blue;
+	height: 140px;
+	/*width: 150%;*/
+}
+.logo1, .logo2{
+	background-size: 48%;
+}
+.logo1{
+	background-image: url('images/logo3.jpg');
+	height: 91px;
+
+	background-repeat: no-repeat;
+ 
+	/*border:0.5px solid black;*/
+ 
+}
+.logo2{
+	background-image: url('images/AFOSlogo5.jpg');9
+	height: 130px;
+
+	background-repeat: no-repeat;
+	 
+	/*border:0.5px solid black;*/
+ 
+}
+
+/*.bg_info: {*/
+
+	/*background-color: green;*/
+	/*height: 50px;*/
+}
+
+.col-sm-8 .heading {
+	color: blue;
+	text-align: center;
+	background-color: red;
+}
+
+/*here we are going to style our logos*/
+
+.logos{
+	  
+	height: 100px;
+
+}
+.picture{background-image: url('images/afos-product2.jpg');
+
+}
+
+.bordered{
+	border: 1px solid #000;
+}
+.skin1{
+	color: rgb(0,200,180)
+}
+.skin2{
+	color: rgb(0,100,240)
+}
+
+#search{
+	/*background-color: gray;*/
+}
+.padded{
+	 padding: 0px 0px 0px 30px;
+}
+
+.off{
+	display: none;
+}
+.full{
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .logos{
+  	background-size: 20%;
+  	background-position-x:45%; 
+  }
+}
+
+#small-image{ 
+	background-image: url('images/staff2.PNG');
+
+}
+#small-image2{
+	background-image: url('images/inyange2.PNG')
+}
+#small-image3{
+	background-image: url('images/inyange3.PNG');
+}
+#small-image4{
+	background-image: url('images/inyange4.PNG');
+}
+#small-image5{
+	background-image: url('images/inyange5.PNG');
+}
+#small-image6{
+	background-image: url('images/inyange.PNG');
+}
+.some_height{
+	height: 138px;
+	background-color: rgb(100,200,0);
+}
+.my_images .col-sm-2{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-left: 3px;
+	box-sizing:border-box;
+}
+.parent{
+	position: relative;
+}
+.child{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: rgb(0,110,250);
+	width: 100%;
+	color: #fff;
+	padding: 7px;
+	box-sizing:border-box;
+}
+
+/*hOME PAGE SMALL IMAGES*/
+#small-img{
+	background-image: url('images/C-OIL.PNG');
+}
+#small-img2{
+	background-image: url('images/C-OIL20Ltrs.PNG');
+}
+#small-img3{
+	background-image: url('images/omo1.PNG');
+}
+#small-img4{
+	background-image: url('images/omo2.PNG');
+}
+#small-img5{
+	background-image: url('images/omo3.PNG');
+}
+#small-img6{
+	background-image: url('images/soap.PNG');
+}
+
+.mySlides{
+	height: 390px;
+}
+
+
+
+
+/*HOME PAGE SLIDESHOW*/
+
+ * {box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif;}
+      .mySlides {display: none;
+      	/*border-box:box-sizing;*/
+      }
+      img {vertical-align: middle;}
+      border-box:box-sizing;
+
+      /* Slideshow container */
+      .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }

@@ -1,0 +1,11 @@
+.border div{
+	border:1px solid #000;
+	padding: 4px;
+
+}
+.border{
+	width: 35%;
+	/*max-height: 200px;*/
+	height: 60%;
+
+}

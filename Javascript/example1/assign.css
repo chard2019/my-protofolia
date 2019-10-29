@@ -1,0 +1,73 @@
+/*what does this mean?*/
+/**{*/
+	/*box-sizing: border-box;*/
+/*}*/
+
+.box{
+	width: 30%;
+	background-color: rgb(100,100,100);
+	margin: auto;
+	padding: 20px;
+	height: 300px;
+}
+#number{
+	padding: 5px;
+	background-color: rgb(50,50,50);
+	color: #fff;
+	margin: auto;
+}
+
+
+		#bg{
+						background-color: #00b8e5;
+					}
+
+					#box{
+						width: 30%;
+						background-color:white;
+						color: lightblack;
+						margin:auto;
+						padding:10px 
+						border-radius:5px;
+						box-sizing:border-box;
+						border: 1px solid gray;
+						margin-top: 12%
+
+
+					}
+
+					.width_layout{
+						width: 100%
+					}
+
+					.txt_box{
+						padding: 10px;
+						margin-top: 10px;
+						border-radius: 9px;
+						box-sizing:border-box;
+						background-color: lightgray;
+
+
+					}
+
+					.button{
+						background-color: green;
+						color:white;
+						padding:10px;
+						margin:10px;
+						/*width:150px;*/
+						margin-top: 10px;
+						width:95%;
+						box-sizing:border-box;
+						border-radius: 7px;
+					}
+
+					.h3{
+						margin:auto;
+						color: lightgray; 
+						padding:10px; 
+						text-align: center;
+					}
+					#bottom_h3{
+						font-size: 15px;
+					}

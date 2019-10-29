@@ -1,0 +1,27 @@
+coloture
+=========
+lauch the sql db
+click to 
++of AFOSSSYDB
+-Programmability
+-stored procedures
+-Ps_SoldeToutesCaisses
+right click then modify 
+-select code then excute
+-check balance if cash counter is 0
+except safe and petty cash
+
+finally take backup
+====================
+-observe cleally if balance of cashier and
+is 0,right click the current DB 
+right click AFOSSSYDB,dettach tast,Modify
+-click Drop connections ,update statistics
+====================================
+finally right click Databases 
+attach
+Add
+choice the name u need 
+ok 
+ok.
+

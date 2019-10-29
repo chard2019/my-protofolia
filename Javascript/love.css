@@ -1,0 +1,6 @@
+.image{ background-image: url("images/image_prayer.PNG");
+	height: 300px;
+	width: 500px;
+	background-color: cyan;
+	float: left;
+}
